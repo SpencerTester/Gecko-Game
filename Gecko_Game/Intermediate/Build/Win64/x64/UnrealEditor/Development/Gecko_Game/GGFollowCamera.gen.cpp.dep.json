@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\users\\gabe\\documents\\unreal projects\\gecko-game\\gecko_game\\intermediate\\build\\win64\\unrealeditor\\inc\\gecko_game\\uht\\ggfollowcamera.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\users\\gabe\\documents\\unreal projects\\gecko-game\\gecko_game\\intermediate\\build\\win64\\x64\\gecko_gameeditor\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\users\\gabe\\documents\\unreal projects\\gecko-game\\gecko_game\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gecko_game\\definitions.gecko_game.h",
+            "d:\\users\\gabe\\documents\\unreal projects\\gecko-game\\gecko_game\\source\\gecko_game\\core\\ggfollowcamera.h",
+            "d:\\users\\gabe\\documents\\unreal projects\\gecko-game\\gecko_game\\intermediate\\build\\win64\\unrealeditor\\inc\\gecko_game\\uht\\ggfollowcamera.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

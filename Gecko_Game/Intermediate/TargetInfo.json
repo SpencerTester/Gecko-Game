@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Gecko_Game",
+			"Path": "..\\Source\\Gecko_Game.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Gecko_GameEditor",
+			"Path": "..\\Source\\Gecko_GameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

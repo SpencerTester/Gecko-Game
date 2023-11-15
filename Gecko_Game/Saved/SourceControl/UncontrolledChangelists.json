@@ -5,6 +5,20 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/Users/Gabe/Documents/Unreal Projects/Gecko-Game/Gecko_Game/Content/GeckoGame/Levels/BaseLevel.umap",
+				"D:/Users/Gabe/Documents/Unreal Projects/Gecko-Game/Gecko_Game/Content/GeckoGame/Textures/Environment/TowerBackground_Sprite.uasset",
+				"D:/Users/Gabe/Documents/Unreal Projects/Gecko-Game/Gecko_Game/Content/GeckoGame/Textures/Environment/TowerBackground.uasset",
+				"D:/Users/Gabe/Documents/Unreal Projects/Gecko-Game/Gecko_Game/Content/GeckoGame/Blueprints/BP_FollowCamera.uasset",
+				"D:/Users/Gabe/Documents/Unreal Projects/Gecko-Game/Gecko_Game/Content/GeckoGame/Blueprints/MyGGFollowCamera.uasset",
+				"D:/Users/Gabe/Documents/Unreal Projects/Gecko-Game/Gecko_Game/Content/GeckoGame/Maps/BaseLevel.umap",
+				"D:/Users/Gabe/Documents/Unreal Projects/Gecko-Game/Gecko_Game/Content/PointAndClick/Textures/Environment/TowerInterior_Sprite.uasset",
+				"D:/Users/Gabe/Documents/Unreal Projects/Gecko-Game/Gecko_Game/Content/PointAndClick/Textures/Environment/TowerInterior.uasset",
+				"D:/Users/Gabe/Documents/Unreal Projects/Gecko-Game/Gecko_Game/Content/PointAndClick/Textures/Environment/TowerForeground_Sprite.uasset",
+				"D:/Users/Gabe/Documents/Unreal Projects/Gecko-Game/Gecko_Game/Content/PointAndClick/Textures/Environment/TowerForeground.uasset",
+				"D:/Users/Gabe/Documents/Unreal Projects/Gecko-Game/Gecko_Game/Content/PointAndClick/Textures/Environment/TowerDoor_Sprite.uasset",
+				"D:/Users/Gabe/Documents/Unreal Projects/Gecko-Game/Gecko_Game/Content/PointAndClick/Textures/Environment/TowerDoor.uasset",
+				"D:/Users/Gabe/Documents/Unreal Projects/Gecko-Game/Gecko_Game/Content/PointAndClick/Textures/Environment/TowerBackground.uasset",
+				"D:/Users/Gabe/Documents/Unreal Projects/Gecko-Game/Gecko_Game/Content/PointAndClick/Textures/Environment/TowerBackground_Sprite.uasset",
 				"C:/Users/spenc/Documents/GitHub/Gecko-Game/Gecko_Game/Content/StarterContent/Architecture/Floor_400x400.uasset"
 			]
 		}

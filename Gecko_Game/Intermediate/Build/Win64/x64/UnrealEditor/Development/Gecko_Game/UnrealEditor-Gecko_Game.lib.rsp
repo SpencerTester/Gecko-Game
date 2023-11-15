@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Gecko_Game.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Users\Gabe\Documents\Unreal Projects\Gecko-Game\Gecko_Game\Intermediate\Build\Win64\x64\Gecko_GameEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
+"D:\Users\Gabe\Documents\Unreal Projects\Gecko-Game\Gecko_Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Gecko_Game\Gecko_Game.init.gen.cpp.obj"
+"D:\Users\Gabe\Documents\Unreal Projects\Gecko-Game\Gecko_Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Gecko_Game\GGFollowCamera.gen.cpp.obj"
+"D:\Users\Gabe\Documents\Unreal Projects\Gecko-Game\Gecko_Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Gecko_Game\Gecko_Game.cpp.obj"
+"D:\Users\Gabe\Documents\Unreal Projects\Gecko-Game\Gecko_Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Gecko_Game\GGFollowCamera.cpp.obj"
+"D:\Users\Gabe\Documents\Unreal Projects\Gecko-Game\Gecko_Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Gecko_Game\Default.rc2.res"
+/OUT:"D:\Users\Gabe\Documents\Unreal Projects\Gecko-Game\Gecko_Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Gecko_Game\UnrealEditor-Gecko_Game.lib"
