@@ -1,1 +1,8 @@
-D:\Users\Gabe\Documents\Unreal Projects\Gecko-Game\Gecko_Game\Source\Gecko_Game\Core\GGFollowCamera.h
+D:\Users\Gabe\Documents\Unreal Projects\Gecko-Game\Gecko_Game\Source\Gecko_Game\Components\GGHealthComponent.h
+D:\Users\Gabe\Documents\Unreal Projects\Gecko-Game\Gecko_Game\Source\Gecko_Game\Core\Controllers\GGPlayerController.h
+D:\Users\Gabe\Documents\Unreal Projects\Gecko-Game\Gecko_Game\Source\Gecko_Game\Core\GameModes\GGPlatformerGameMode.h
+D:\Users\Gabe\Documents\Unreal Projects\Gecko-Game\Gecko_Game\Source\Gecko_Game\Player\GGFollowCamera.h
+D:\Users\Gabe\Documents\Unreal Projects\Gecko-Game\Gecko_Game\Source\Gecko_Game\UI\Game\GGStatusHUD.h
+D:\Users\Gabe\Documents\Unreal Projects\Gecko-Game\Gecko_Game\Source\Gecko_Game\Utils\TextureAnalyzer.h
+D:\Users\Gabe\Documents\Unreal Projects\Gecko-Game\Gecko_Game\Source\Gecko_Game\Player\GGPlayerPawn.h
+D:\Users\Gabe\Documents\Unreal Projects\Gecko-Game\Gecko_Game\Source\Gecko_Game\Core\Interfaces\GGHealthInterface.h

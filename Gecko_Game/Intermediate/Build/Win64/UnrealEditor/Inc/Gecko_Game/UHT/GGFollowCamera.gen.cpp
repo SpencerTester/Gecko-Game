@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "Gecko_Game/Core/GGFollowCamera.h"
+#include "Gecko_Game/Player/GGFollowCamera.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeGGFollowCamera() {}
 // Cross Module References
@@ -42,7 +42,7 @@ void EmptyLinkFunctionForGeneratedCodeGGFollowCamera() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGGFollowCamera_SetCameraConfines_Statics::Function_MetaDataParams[] = {
 		{ "Category", "General" },
-		{ "ModuleRelativePath", "Core/GGFollowCamera.h" },
+		{ "ModuleRelativePath", "Player/GGFollowCamera.h" },
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AGGFollowCamera_SetCameraConfines_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGGFollowCamera, nullptr, "SetCameraConfines", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AGGFollowCamera_SetCameraConfines_Statics::Function_MetaDataParams), Z_Construct_UFunction_AGGFollowCamera_SetCameraConfines_Statics::Function_MetaDataParams) };
@@ -109,19 +109,19 @@ void EmptyLinkFunctionForGeneratedCodeGGFollowCamera() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AGGFollowCamera_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_AGGFollowCamera_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AGGFollowCamera_SetCameraConfines, "SetCameraConfines" }, // 330730007
+		{ &Z_Construct_UFunction_AGGFollowCamera_SetCameraConfines, "SetCameraConfines" }, // 2366011807
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AGGFollowCamera_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGGFollowCamera_Statics::Class_MetaDataParams[] = {
-		{ "IncludePath", "Core/GGFollowCamera.h" },
-		{ "ModuleRelativePath", "Core/GGFollowCamera.h" },
+		{ "IncludePath", "Player/GGFollowCamera.h" },
+		{ "ModuleRelativePath", "Player/GGFollowCamera.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_ConfinesExtent_MetaData[] = {
 		{ "Category", "General" },
-		{ "ModuleRelativePath", "Core/GGFollowCamera.h" },
+		{ "ModuleRelativePath", "Player/GGFollowCamera.h" },
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_ConfinesExtent = { "ConfinesExtent", nullptr, (EPropertyFlags)0x0020080000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AGGFollowCamera, ConfinesExtent), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_ConfinesExtent_MetaData), Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_ConfinesExtent_MetaData) };
@@ -129,7 +129,7 @@ void EmptyLinkFunctionForGeneratedCodeGGFollowCamera() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_Camera_MetaData[] = {
 		{ "Category", "General" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Core/GGFollowCamera.h" },
+		{ "ModuleRelativePath", "Player/GGFollowCamera.h" },
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_Camera = { "Camera", nullptr, (EPropertyFlags)0x00200800000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AGGFollowCamera, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_Camera_MetaData), Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_Camera_MetaData) };
@@ -137,42 +137,42 @@ void EmptyLinkFunctionForGeneratedCodeGGFollowCamera() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_CameraConfines_MetaData[] = {
 		{ "Category", "General" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Core/GGFollowCamera.h" },
+		{ "ModuleRelativePath", "Player/GGFollowCamera.h" },
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_CameraConfines = { "CameraConfines", nullptr, (EPropertyFlags)0x00200800000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AGGFollowCamera, CameraConfines), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_CameraConfines_MetaData), Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_CameraConfines_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_DeltaSeconds_MetaData[] = {
 		{ "Category", "General" },
-		{ "ModuleRelativePath", "Core/GGFollowCamera.h" },
+		{ "ModuleRelativePath", "Player/GGFollowCamera.h" },
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_DeltaSeconds = { "DeltaSeconds", nullptr, (EPropertyFlags)0x0020080000020015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AGGFollowCamera, DeltaSeconds), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_DeltaSeconds_MetaData), Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_DeltaSeconds_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_ConfineMaxX_MetaData[] = {
 		{ "Category", "General" },
-		{ "ModuleRelativePath", "Core/GGFollowCamera.h" },
+		{ "ModuleRelativePath", "Player/GGFollowCamera.h" },
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_ConfineMaxX = { "ConfineMaxX", nullptr, (EPropertyFlags)0x0020080000020015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AGGFollowCamera, ConfineMaxX), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_ConfineMaxX_MetaData), Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_ConfineMaxX_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_ConfineMinX_MetaData[] = {
 		{ "Category", "General" },
-		{ "ModuleRelativePath", "Core/GGFollowCamera.h" },
+		{ "ModuleRelativePath", "Player/GGFollowCamera.h" },
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_ConfineMinX = { "ConfineMinX", nullptr, (EPropertyFlags)0x0020080000020015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AGGFollowCamera, ConfineMinX), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_ConfineMinX_MetaData), Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_ConfineMinX_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_ConfineMaxY_MetaData[] = {
 		{ "Category", "General" },
-		{ "ModuleRelativePath", "Core/GGFollowCamera.h" },
+		{ "ModuleRelativePath", "Player/GGFollowCamera.h" },
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_ConfineMaxY = { "ConfineMaxY", nullptr, (EPropertyFlags)0x0020080000020015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AGGFollowCamera, ConfineMaxY), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_ConfineMaxY_MetaData), Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_ConfineMaxY_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_ConfineMinY_MetaData[] = {
 		{ "Category", "General" },
-		{ "ModuleRelativePath", "Core/GGFollowCamera.h" },
+		{ "ModuleRelativePath", "Player/GGFollowCamera.h" },
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_ConfineMinY = { "ConfineMinY", nullptr, (EPropertyFlags)0x0020080000020015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AGGFollowCamera, ConfineMinY), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_ConfineMinY_MetaData), Z_Construct_UClass_AGGFollowCamera_Statics::NewProp_ConfineMinY_MetaData) };
@@ -219,15 +219,15 @@ void EmptyLinkFunctionForGeneratedCodeGGFollowCamera() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AGGFollowCamera);
 	AGGFollowCamera::~AGGFollowCamera() {}
-	struct Z_CompiledInDeferFile_FID_Gecko_Game_Source_Gecko_Game_Core_GGFollowCamera_h_Statics
+	struct Z_CompiledInDeferFile_FID_Gecko_Game_Source_Gecko_Game_Player_GGFollowCamera_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Gecko_Game_Source_Gecko_Game_Core_GGFollowCamera_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AGGFollowCamera, AGGFollowCamera::StaticClass, TEXT("AGGFollowCamera"), &Z_Registration_Info_UClass_AGGFollowCamera, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGGFollowCamera), 2790474320U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Gecko_Game_Source_Gecko_Game_Player_GGFollowCamera_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_AGGFollowCamera, AGGFollowCamera::StaticClass, TEXT("AGGFollowCamera"), &Z_Registration_Info_UClass_AGGFollowCamera, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGGFollowCamera), 1148858183U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Gecko_Game_Source_Gecko_Game_Core_GGFollowCamera_h_2862375759(TEXT("/Script/Gecko_Game"),
-		Z_CompiledInDeferFile_FID_Gecko_Game_Source_Gecko_Game_Core_GGFollowCamera_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Gecko_Game_Source_Gecko_Game_Core_GGFollowCamera_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Gecko_Game_Source_Gecko_Game_Player_GGFollowCamera_h_4000578581(TEXT("/Script/Gecko_Game"),
+		Z_CompiledInDeferFile_FID_Gecko_Game_Source_Gecko_Game_Player_GGFollowCamera_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Gecko_Game_Source_Gecko_Game_Player_GGFollowCamera_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

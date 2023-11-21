@@ -4,7 +4,7 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-// IWYU pragma: private, include "Core/GGFollowCamera.h"
+// IWYU pragma: private, include "Player/GGFollowCamera.h"
 #include "UObject/ObjectMacros.h"
 #include "UObject/ScriptMacros.h"
 
@@ -14,16 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GECKO_GAME_GGFollowCamera_generated_h
 
-#define FID_Gecko_Game_Source_Gecko_Game_Core_GGFollowCamera_h_16_SPARSE_DATA
-#define FID_Gecko_Game_Source_Gecko_Game_Core_GGFollowCamera_h_16_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_Gecko_Game_Source_Gecko_Game_Core_GGFollowCamera_h_16_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_Gecko_Game_Source_Gecko_Game_Core_GGFollowCamera_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Gecko_Game_Source_Gecko_Game_Player_GGFollowCamera_h_17_SPARSE_DATA
+#define FID_Gecko_Game_Source_Gecko_Game_Player_GGFollowCamera_h_17_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Gecko_Game_Source_Gecko_Game_Player_GGFollowCamera_h_17_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Gecko_Game_Source_Gecko_Game_Player_GGFollowCamera_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSetCameraConfines);
 
 
-#define FID_Gecko_Game_Source_Gecko_Game_Core_GGFollowCamera_h_16_ACCESSORS
-#define FID_Gecko_Game_Source_Gecko_Game_Core_GGFollowCamera_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_Gecko_Game_Source_Gecko_Game_Player_GGFollowCamera_h_17_ACCESSORS
+#define FID_Gecko_Game_Source_Gecko_Game_Player_GGFollowCamera_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGGFollowCamera(); \
 	friend struct Z_Construct_UClass_AGGFollowCamera_Statics; \
@@ -32,7 +32,7 @@ public: \
 	DECLARE_SERIALIZER(AGGFollowCamera)
 
 
-#define FID_Gecko_Game_Source_Gecko_Game_Core_GGFollowCamera_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_Gecko_Game_Source_Gecko_Game_Player_GGFollowCamera_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AGGFollowCamera(AGGFollowCamera&&); \
@@ -44,17 +44,17 @@ public: \
 	NO_API virtual ~AGGFollowCamera();
 
 
-#define FID_Gecko_Game_Source_Gecko_Game_Core_GGFollowCamera_h_13_PROLOG
-#define FID_Gecko_Game_Source_Gecko_Game_Core_GGFollowCamera_h_16_GENERATED_BODY \
+#define FID_Gecko_Game_Source_Gecko_Game_Player_GGFollowCamera_h_13_PROLOG
+#define FID_Gecko_Game_Source_Gecko_Game_Player_GGFollowCamera_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Gecko_Game_Source_Gecko_Game_Core_GGFollowCamera_h_16_SPARSE_DATA \
-	FID_Gecko_Game_Source_Gecko_Game_Core_GGFollowCamera_h_16_SPARSE_DATA_PROPERTY_ACCESSORS \
-	FID_Gecko_Game_Source_Gecko_Game_Core_GGFollowCamera_h_16_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
-	FID_Gecko_Game_Source_Gecko_Game_Core_GGFollowCamera_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Gecko_Game_Source_Gecko_Game_Core_GGFollowCamera_h_16_ACCESSORS \
-	FID_Gecko_Game_Source_Gecko_Game_Core_GGFollowCamera_h_16_INCLASS_NO_PURE_DECLS \
-	FID_Gecko_Game_Source_Gecko_Game_Core_GGFollowCamera_h_16_ENHANCED_CONSTRUCTORS \
+	FID_Gecko_Game_Source_Gecko_Game_Player_GGFollowCamera_h_17_SPARSE_DATA \
+	FID_Gecko_Game_Source_Gecko_Game_Player_GGFollowCamera_h_17_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Gecko_Game_Source_Gecko_Game_Player_GGFollowCamera_h_17_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Gecko_Game_Source_Gecko_Game_Player_GGFollowCamera_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Gecko_Game_Source_Gecko_Game_Player_GGFollowCamera_h_17_ACCESSORS \
+	FID_Gecko_Game_Source_Gecko_Game_Player_GGFollowCamera_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Gecko_Game_Source_Gecko_Game_Player_GGFollowCamera_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -62,7 +62,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> GECKO_GAME_API UClass* StaticClass<class AGGFollowCamera>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Gecko_Game_Source_Gecko_Game_Core_GGFollowCamera_h
+#define CURRENT_FILE_ID FID_Gecko_Game_Source_Gecko_Game_Player_GGFollowCamera_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

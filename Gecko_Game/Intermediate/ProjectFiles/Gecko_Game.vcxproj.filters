@@ -39,14 +39,80 @@
     <ClInclude Include="..\..\Source\Gecko_Game\Gecko_Game.h">
       <Filter>Source\Gecko_Game</Filter>
     </ClInclude>
+    <Filter Include="Source\Gecko_Game\Components">
+      <UniqueIdentifier>{AFD66ABA-CB41-3CF5-8108-E726D27121EE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Gecko_Game\Components\GGHealthComponent.cpp">
+      <Filter>Source\Gecko_Game\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Gecko_Game\Components\GGHealthComponent.h">
+      <Filter>Source\Gecko_Game\Components</Filter>
+    </ClInclude>
     <Filter Include="Source\Gecko_Game\Core">
       <UniqueIdentifier>{ADEE48CC-BCA4-3FEB-8D42-5A81C774BFE2}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\Gecko_Game\Core\GGFollowCamera.cpp">
-      <Filter>Source\Gecko_Game\Core</Filter>
+    <Filter Include="Source\Gecko_Game\Core\Controllers">
+      <UniqueIdentifier>{D871FA58-4DBE-3A90-8A9D-020A92624905}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Gecko_Game\Core\Controllers\GGPlayerController.cpp">
+      <Filter>Source\Gecko_Game\Core\Controllers</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Gecko_Game\Core\GGFollowCamera.h">
-      <Filter>Source\Gecko_Game\Core</Filter>
+    <ClInclude Include="..\..\Source\Gecko_Game\Core\Controllers\GGPlayerController.h">
+      <Filter>Source\Gecko_Game\Core\Controllers</Filter>
+    </ClInclude>
+    <Filter Include="Source\Gecko_Game\Core\GameModes">
+      <UniqueIdentifier>{CBC2DC40-7156-3635-A8B4-16A34623819A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Gecko_Game\Core\GameModes\GGPlatformerGameMode.cpp">
+      <Filter>Source\Gecko_Game\Core\GameModes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Gecko_Game\Core\GameModes\GGPlatformerGameMode.h">
+      <Filter>Source\Gecko_Game\Core\GameModes</Filter>
+    </ClInclude>
+    <Filter Include="Source\Gecko_Game\Core\Interfaces">
+      <UniqueIdentifier>{FBB72670-AF69-305B-B876-59D77EA0DFBE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Gecko_Game\Core\Interfaces\GGHealthInterface.cpp">
+      <Filter>Source\Gecko_Game\Core\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Gecko_Game\Core\Interfaces\GGHealthInterface.h">
+      <Filter>Source\Gecko_Game\Core\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\Gecko_Game\Player">
+      <UniqueIdentifier>{6ED6BBBB-BDED-3E3C-AB32-1018EDD2A22C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Gecko_Game\Player\GGFollowCamera.cpp">
+      <Filter>Source\Gecko_Game\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Gecko_Game\Player\GGFollowCamera.h">
+      <Filter>Source\Gecko_Game\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Gecko_Game\Player\GGPlayerPawn.cpp">
+      <Filter>Source\Gecko_Game\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Gecko_Game\Player\GGPlayerPawn.h">
+      <Filter>Source\Gecko_Game\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\Gecko_Game\UI">
+      <UniqueIdentifier>{BCC84A84-39A8-3513-A728-53C7B34FE4DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Gecko_Game\UI\Game">
+      <UniqueIdentifier>{2E64C2BD-79D6-331E-BB54-24E89C601046}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Gecko_Game\UI\Game\GGStatusHUD.cpp">
+      <Filter>Source\Gecko_Game\UI\Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Gecko_Game\UI\Game\GGStatusHUD.h">
+      <Filter>Source\Gecko_Game\UI\Game</Filter>
+    </ClInclude>
+    <Filter Include="Source\Gecko_Game\Utils">
+      <UniqueIdentifier>{4F9DBAC4-B48C-313C-AF7B-F131C4EE6A55}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Gecko_Game\Utils\TextureAnalyzer.cpp">
+      <Filter>Source\Gecko_Game\Utils</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Gecko_Game\Utils\TextureAnalyzer.h">
+      <Filter>Source\Gecko_Game\Utils</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
