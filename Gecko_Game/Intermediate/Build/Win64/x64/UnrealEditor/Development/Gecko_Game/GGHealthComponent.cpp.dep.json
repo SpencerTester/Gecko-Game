@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\users\\gabe\\documents\\unreal projects\\gecko-game\\gecko_game\\source\\gecko_game\\components\\gghealthcomponent.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\users\\gabe\\documents\\unreal projects\\gecko-game\\gecko_game\\intermediate\\build\\win64\\x64\\gecko_gameeditor\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\users\\gabe\\documents\\unreal projects\\gecko-game\\gecko_game\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gecko_game\\definitions.gecko_game.h",
+            "d:\\users\\gabe\\documents\\unreal projects\\gecko-game\\gecko_game\\source\\gecko_game\\components\\gghealthcomponent.h",
+            "d:\\users\\gabe\\documents\\unreal projects\\gecko-game\\gecko_game\\intermediate\\build\\win64\\unrealeditor\\inc\\gecko_game\\uht\\gghealthcomponent.generated.h",
+            "d:\\users\\gabe\\documents\\unreal projects\\gecko-game\\gecko_game\\source\\gecko_game\\core\\interfaces\\gghealthinterface.h",
+            "d:\\users\\gabe\\documents\\unreal projects\\gecko-game\\gecko_game\\intermediate\\build\\win64\\unrealeditor\\inc\\gecko_game\\uht\\gghealthinterface.generated.h",
+            "c:\\games\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "c:\\games\\epic games\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\games\\epic games\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\arfilter.h",
+            "c:\\games\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetsystemlibrary.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

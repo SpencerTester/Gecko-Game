@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeGecko_Game_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xC3DCFFC6,
-				0x2728B97F,
+				0x3F9BEEE9,
+				0xA0764BE3,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_Gecko_Game.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_Gecko_Game.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Gecko_Game(Z_Construct_UPackage__Script_Gecko_Game, TEXT("/Script/Gecko_Game"), Z_Registration_Info_UPackage__Script_Gecko_Game, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xC3DCFFC6, 0x2728B97F));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Gecko_Game(Z_Construct_UPackage__Script_Gecko_Game, TEXT("/Script/Gecko_Game"), Z_Registration_Info_UPackage__Script_Gecko_Game, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x3F9BEEE9, 0xA0764BE3));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,10 +1,13 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "GGFollowCamera.h"
+#include "GGPlayerPawn.h"
+#include "../Core/GGBlueprintFunctionLibrary.h"
 
 #include "Components/BoxComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Kismet/KismetSystemLibrary.h"
+#include "Kismet/GameplayStatics.h"
 
 
 AGGFollowCamera::AGGFollowCamera() :
@@ -27,6 +30,7 @@ void AGGFollowCamera::BeginPlay()
 	Super::BeginPlay();
 
 	this->SetCameraConfines();
+	this->ActivateCamera();
 }
 
 void AGGFollowCamera::OnConstruction(const FTransform& Transform)
@@ -39,12 +43,14 @@ void AGGFollowCamera::OnConstruction(const FTransform& Transform)
 void AGGFollowCamera::Tick(const float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	this->DeltaSeconds = DeltaTime;
 }
 
 void AGGFollowCamera::SetCameraConfines()
 {
 	const float ConfineX = this->Camera->OrthoWidth / 2.0f;
-	const float ConfineY = this->Camera->OrthoWidth / 3.5f;
+	const float ConfineY = (this->Camera->OrthoWidth / this->Camera->AspectRatio) / 2.0f;
 
 	FVector Origin = FVector(
 		this->CameraConfines->Bounds.Origin.X,
@@ -62,9 +68,17 @@ void AGGFollowCamera::SetCameraConfines()
 	UKismetSystemLibrary::GetComponentBounds(this->CameraConfines, Origin, BoxExtent, SphereRadius);
 
 	this->ConfineMaxX = Origin.X - ConfineX;
-	this->ConfineMinX = BoxExtent.Y + ConfineX;
+	this->ConfineMinX = BoxExtent.X + ConfineX;
 
 	this->ConfineMaxY = Origin.Y - ConfineY;
-	this->ConfineMinY = BoxExtent.Z + ConfineY;
+	this->ConfineMinY = BoxExtent.Y + ConfineY;
+}
+
+void AGGFollowCamera::ActivateCamera()
+{
+	this->Player = UGGBlueprintFunctionLibrary::GetPlayerPawn();
+
+	APlayerController* Controller = UGameplayStatics::GetPlayerController(this, 0);
+	Controller->SetViewTargetWithBlend(this, 0.0f, EViewTargetBlendFunction::VTBlend_Linear, 0.0f, false);
 }
 

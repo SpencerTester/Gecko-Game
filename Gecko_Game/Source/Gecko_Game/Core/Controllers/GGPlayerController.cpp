@@ -3,6 +3,9 @@
 #include "GGPlayerController.h"
 
 #include "../../UI/Game/GGStatusHUD.h"
+#include "../../Player/GGPlayerPawn.h"
+
+#include "Kismet/GameplayStatics.h"
 
 
 AGGPlayerController::AGGPlayerController()
@@ -12,6 +15,9 @@ AGGPlayerController::AGGPlayerController()
 	APlayerController::bEnableTouchEvents = false;
 
 	APlayerController::DefaultMouseCursor = EMouseCursor::Default;
+
+	APawn* PawnPtr = Cast<APawn>(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
+	this->PlayerPawn = Cast<AGGPlayerPawn>(PawnPtr);
 }
 
 void AGGPlayerController::BeginPlay()

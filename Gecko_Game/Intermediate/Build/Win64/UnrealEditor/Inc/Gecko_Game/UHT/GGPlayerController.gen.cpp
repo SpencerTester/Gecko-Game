@@ -13,6 +13,7 @@ void EmptyLinkFunctionForGeneratedCodeGGPlayerController() {}
 	ENGINE_API UClass* Z_Construct_UClass_APlayerController();
 	GECKO_GAME_API UClass* Z_Construct_UClass_AGGPlayerController();
 	GECKO_GAME_API UClass* Z_Construct_UClass_AGGPlayerController_NoRegister();
+	GECKO_GAME_API UClass* Z_Construct_UClass_AGGPlayerPawn_NoRegister();
 	GECKO_GAME_API UClass* Z_Construct_UClass_UGGStatusHUD_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_Gecko_Game();
 // End Cross Module References
@@ -30,6 +31,10 @@ void EmptyLinkFunctionForGeneratedCodeGGPlayerController() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_PlayerPawn_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_PlayerPawn;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_BPUI_StatusHUD_MetaData[];
 #endif
@@ -58,6 +63,13 @@ void EmptyLinkFunctionForGeneratedCodeGGPlayerController() {}
 	};
 #endif
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGGPlayerController_Statics::NewProp_PlayerPawn_MetaData[] = {
+		{ "Category", "General" },
+		{ "ModuleRelativePath", "Core/Controllers/GGPlayerController.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGGPlayerController_Statics::NewProp_PlayerPawn = { "PlayerPawn", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AGGPlayerController, PlayerPawn), Z_Construct_UClass_AGGPlayerPawn_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AGGPlayerController_Statics::NewProp_PlayerPawn_MetaData), Z_Construct_UClass_AGGPlayerController_Statics::NewProp_PlayerPawn_MetaData) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGGPlayerController_Statics::NewProp_BPUI_StatusHUD_MetaData[] = {
 		{ "Category", "UI|Game" },
 		{ "ModuleRelativePath", "Core/Controllers/GGPlayerController.h" },
@@ -73,6 +85,7 @@ void EmptyLinkFunctionForGeneratedCodeGGPlayerController() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGGPlayerController_Statics::NewProp_StatusHUD_Widget = { "StatusHUD_Widget", nullptr, (EPropertyFlags)0x0040000000090009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AGGPlayerController, StatusHUD_Widget), Z_Construct_UClass_UGGStatusHUD_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AGGPlayerController_Statics::NewProp_StatusHUD_Widget_MetaData), Z_Construct_UClass_AGGPlayerController_Statics::NewProp_StatusHUD_Widget_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGGPlayerController_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGGPlayerController_Statics::NewProp_PlayerPawn,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGGPlayerController_Statics::NewProp_BPUI_StatusHUD,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGGPlayerController_Statics::NewProp_StatusHUD_Widget,
 	};
@@ -114,9 +127,9 @@ void EmptyLinkFunctionForGeneratedCodeGGPlayerController() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Gecko_Game_Source_Gecko_Game_Core_Controllers_GGPlayerController_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AGGPlayerController, AGGPlayerController::StaticClass, TEXT("AGGPlayerController"), &Z_Registration_Info_UClass_AGGPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGGPlayerController), 412802980U) },
+		{ Z_Construct_UClass_AGGPlayerController, AGGPlayerController::StaticClass, TEXT("AGGPlayerController"), &Z_Registration_Info_UClass_AGGPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGGPlayerController), 377738666U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Gecko_Game_Source_Gecko_Game_Core_Controllers_GGPlayerController_h_1735051233(TEXT("/Script/Gecko_Game"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Gecko_Game_Source_Gecko_Game_Core_Controllers_GGPlayerController_h_4192207453(TEXT("/Script/Gecko_Game"),
 		Z_CompiledInDeferFile_FID_Gecko_Game_Source_Gecko_Game_Core_Controllers_GGPlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Gecko_Game_Source_Gecko_Game_Core_Controllers_GGPlayerController_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

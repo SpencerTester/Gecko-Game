@@ -8,6 +8,7 @@
 
 
 class UGGStatusHUD;
+class AGGPlayerPawn;
 
 /**
  * 
@@ -19,6 +20,9 @@ class GECKO_GAME_API AGGPlayerController :
 	GENERATED_BODY()
 
 public:
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "General")
+	AGGPlayerPawn* PlayerPawn{ nullptr };
+
 	UPROPERTY(EditDefaultsOnly, Category = "UI|Game")
 	TSubclassOf<UGGStatusHUD> BPUI_StatusHUD;
 

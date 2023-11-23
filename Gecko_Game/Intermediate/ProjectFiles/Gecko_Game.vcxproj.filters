@@ -51,6 +51,12 @@
     <Filter Include="Source\Gecko_Game\Core">
       <UniqueIdentifier>{ADEE48CC-BCA4-3FEB-8D42-5A81C774BFE2}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Gecko_Game\Core\GGBlueprintFunctionLibrary.cpp">
+      <Filter>Source\Gecko_Game\Core</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Gecko_Game\Core\GGBlueprintFunctionLibrary.h">
+      <Filter>Source\Gecko_Game\Core</Filter>
+    </ClInclude>
     <Filter Include="Source\Gecko_Game\Core\Controllers">
       <UniqueIdentifier>{D871FA58-4DBE-3A90-8A9D-020A92624905}</UniqueIdentifier>
     </Filter>

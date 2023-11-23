@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "GGFollowCamera.generated.h"
 
+class AGGPlayerPawn;
 class UBoxComponent;
 class UCameraComponent;
 
@@ -17,6 +18,9 @@ class GECKO_GAME_API AGGFollowCamera :
 	GENERATED_BODY()
 
 protected:
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "General")
+	AGGPlayerPawn* Player{ nullptr };
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "General")
 	FVector ConfinesExtent;
 
@@ -56,4 +60,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "General")
 	void SetCameraConfines();
+
+	UFUNCTION(BlueprintCallable, Category = "General")
+	void ActivateCamera();
 };
